@@ -14,8 +14,8 @@ function Hero3() {
 
         {/* Main Content */}
         <div className="h-[700px] flex flex-col items-center justify-center text-center px-6 relative z-10 
-                        py-14 md:py-0"> 
-          <h1 className="text-teal-800 text-4xl md:text-5xl font-bold tracking-wide pb-6">
+                        py-12 md:py-0"> 
+          <h1 className="text-teal-800 text-4xl md:text-5xl font-bold tracking-wide pb-6 pt-4">
             About Arcite
           </h1>
           <p className="text-lg md:text-xl text-black leading-relaxed max-w-3xl">
