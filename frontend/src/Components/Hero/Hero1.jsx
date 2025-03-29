@@ -64,7 +64,7 @@ function Hero1() {
           {
             img: edu,
             ref: imgRefs[2],
-            link: "https://drive.google.com/drive/folders/1W4EdRYrQTVnWF6SwstPvBBJDFlf_gEvw",
+            link: "https://www.youtube.com/watch?v=xtgDPJaDJaU",
             title: "Convocation Ceremony 2023-24",
           },
         ].map(({ img, ref, link, title }, index) => (
