@@ -13,7 +13,8 @@ function Hero3() {
         <div className="absolute inset-0 bg-opacity-50"></div>
 
         {/* Main Content */}
-        <div className="h-[700px] flex flex-col items-center justify-center text-center px-6 relative z-10">
+        <div className="h-[700px] flex flex-col items-center justify-center text-center px-6 relative z-10 
+                        py-10 md:py-0"> 
           <h1 className="text-teal-800 text-4xl md:text-5xl font-bold tracking-wide pb-6">
             About Arcite
           </h1>
