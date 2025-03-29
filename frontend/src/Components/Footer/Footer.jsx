@@ -2,9 +2,9 @@ import React from "react";
 
 function Footer() {
   return (
-    <footer className="bg-black text-white text-center py-6 relative">
-      <div className="text-lg font-medium">
-        © All Rights Reserved 2024 <br />
+    <footer className="bg-black text-white text-center py-4 relative">
+      <div className="text-md font-small">
+        © All Rights Reserved 2025 <br />
         ARCITE Educational Solutions Pvt Ltd
       </div>
       {/* Thick Teal Underline */}

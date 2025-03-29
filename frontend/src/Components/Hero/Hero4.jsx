@@ -9,13 +9,20 @@ import {
 
 function Hero4() {
   return (
-    <section className="w-full h-[300px] flex items-center justify-center bg-gray-700 bg-cover bg-center relative">
-      <div className="text-center bg-opacity-80 p-8 rounded-lg shadow-lg max-w-2xl">
-        <p className="text-xl font-medium text-white leading-relaxed">
+    <section className="w-full h-[300px] flex items-center justify-center bg-gray-700 bg-cover bg-center relative px-4">
+      <div className="text-center bg-white/10 backdrop-blur-md p-6 rounded-lg shadow-lg max-w-xl border border-white/20">
+        
+        {/* Updated Heading Styling */}
+        <h2 className="text-xl sm:text-2xl font-semibold text-transparent bg-clip-text bg-gradient-to-r from-teal-400 to-blue-500 tracking-wide">
+          🎓 Share Your Graduation Journey!
+        </h2>
+
+        <p className="mt-3 text-sm sm:text-base text-white leading-relaxed">
           Join the excitement of graduation. Share your day and celebrate your success with family and friends on social media.
         </p>
+
         <div className="mt-6">
-          <ul className="flex justify-center gap-6">
+          <ul className="flex justify-center gap-5">
             {[
               { href: "https://www.facebook.com/arciteschooloftechnicaleducation/", icon: faFacebookF, label: "Facebook" },
               { href: "https://www.instagram.com/arcite.in/", icon: faInstagram, label: "Instagram" },
@@ -28,10 +35,10 @@ function Hero4() {
                   href={href}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex flex-col items-center gap-2 text-white hover:text-teal-300 transition-all"
+                  className="flex flex-col items-center gap-2 text-white transition-transform hover:scale-105"
                 >
-                  <FontAwesomeIcon icon={icon} size="xs" className="p-2 bg-white text-amber-950 rounded-full hover:bg-teal-300 hover:text-white transition-colors" />
-                  <span className="text-sm">{label}</span>
+                  <FontAwesomeIcon icon={icon} size="xs" className="p-2 bg-white/20 text-white rounded-full hover:bg-teal-400 hover:text-white transition-colors" />
+                  <span className="text-xs sm:text-sm">{label}</span>
                 </a>
               </li>
             ))}

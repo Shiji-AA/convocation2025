@@ -46,7 +46,7 @@ function Hero1() {
       </div>
 
       {/* Grid Layout */}
-      <div className="max-w-6xl px-6 mx-auto grid md:grid-cols-3 gap-8 border border-red-500 py-10">
+      <div className="max-w-6xl px-6 mx-auto grid md:grid-cols-3 gap-8 border border-teal-500 py-10">
         {/* Convocation Cards */}
         {[  
           {
