@@ -13,7 +13,7 @@ function Hero4() {
       <div className="text-center bg-white/10 backdrop-blur-md p-6 rounded-lg shadow-lg max-w-xl border border-white/20">
         
         {/* Updated Heading Styling */}
-        <h2 className="text-xl sm:text-2xl font-semibold text-transparent bg-clip-text bg-gradient-to-r from-teal-400 to-blue-500 tracking-wide">
+        <h2 className="text-xl sm:text-2xl font-semibold text-transparent bg-clip-text bg-gradient-to-r from-teal-400 to-teal-500 tracking-wide">
           🎓 Share Your Graduation Journey!
         </h2>
 
