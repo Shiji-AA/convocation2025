@@ -14,9 +14,17 @@ function Hero3() {
 
         {/* Main Content */}
         <div className="min-h-screen flex flex-col items-center justify-center text-center px-6 relative z-10 py-16 md:py-24 lg:py-32">
-        <h2 className="text-3xl md:text-4xl font-semibold text-teal-800 drop-shadow-lg pb-8">
-         About ARCITE 
-        </h2>
+
+<h2 className="text-3xl md:text-4xl font-[Poppins] text-teal-800 drop-shadow-lg pb-8">
+            About ARCITE 
+          </h2>
+        
+          {/* <h2 className="text-3xl md:text-4xl text-teal-800 drop-shadow-lg pb-8" style={{ fontFamily: 'Poppins, sans-serif' }}>
+  About ARCITE
+</h2> */}
+       
+
+
 
           {/* Newspaper-style text container */}
           <div className="w-full max-w-[800px] text-justify space-y-6">

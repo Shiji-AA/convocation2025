@@ -40,9 +40,10 @@ function Hero1() {
     <section className="relative bg-white py-16 ">
       {/* Title Section */}
       <div className="text-center mb-12">
-        <h2 className="text-3xl md:text-4xl font-semibold text-black drop-shadow-lg">
-          ARCITE Convocation Ceremonies
-        </h2>
+     
+        <h2 className="text-3xl md:text-4xl font-[Poppins] text-gray-900 drop-shadow-lg pb-8">
+        ARCITE Convocation Ceremonies
+          </h2>
       </div>
 
       {/* Grid Layout */}
