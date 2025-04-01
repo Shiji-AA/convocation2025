@@ -71,7 +71,7 @@ function Hero() {
       <div className="relative w-full max-w-6xl text-center px-6">
         <div ref={textRef} className="text-white">
         <div className="flex justify-center">
-  <img src={cnvLogo} alt="CNV Logo" className="w-96 h-auto pt-20" />
+  <img src={cnvLogo} alt="CNV Logo" className="w-100 h-auto pt-20" />
 </div>
 
           <p className="mt-4 text-lg sm:text-xl md:text-2xl text-gray-200 pt-5">HONOURING BATCHES OF THE YEAR 2024-2025</p>
