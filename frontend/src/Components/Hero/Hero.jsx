@@ -105,9 +105,9 @@ function Hero() {
           </div>
 
           <a href="https://forms.gle/jUqeQh2dYrk5aq5u9">
-            <button className="mt-6 px-6 py-3 bg-teal-600 text-white font-bold text-lg rounded-lg shadow-md hover:bg-white hover:text-black transition">
-              Register Now
-            </button>
+          <button className="mt-6 mb-6 px-6 py-3 bg-teal-600 text-white font-bold text-lg rounded-lg shadow-md hover:bg-white hover:text-black transition">
+  Register Now
+</button>
           </a>
         </div>
       </div>
