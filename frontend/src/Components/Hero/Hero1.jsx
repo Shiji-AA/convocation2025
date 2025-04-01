@@ -52,13 +52,13 @@ function Hero1() {
           {
             img: architect,
             ref: imgRefs[0],
-            link: "https://drive.google.com/drive/folders/1W4EdRYrQTVnWF6SwstPvBBJDFlf_gEvw",
+            link: "https://www.youtube.com/watch?v=jU_S7eio_J4",
             title: "Convocation Ceremony 2021-22",
           },
           {
             img: hr,
             ref: imgRefs[1],
-            link: "https://drive.google.com/drive/folders/1GR5Q-suFqACMzTH8gtBmcamStr_rfk3V",
+            link: "https://www.youtube.com/watch?v=7sZ7w8NV2V4",
             title: "Convocation Ceremony 2022-23",
           },
           {

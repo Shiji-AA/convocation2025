@@ -4,7 +4,7 @@ import { gsap } from "gsap";
 import { useGSAP } from "@gsap/react";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faAward, faUserGraduate, faBookOpen } from "@fortawesome/free-solid-svg-icons";
+import { faAward, faUserGraduate, faBookOpen, faMapMarkerAlt, faClock, faCalendarAlt } from "@fortawesome/free-solid-svg-icons";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -23,7 +23,6 @@ function Hero() {
     document.body.style.overflowX = "hidden";
   }, []);
 
-  // Start count when section is in viewport
   useEffect(() => {
     ScrollTrigger.create({
       trigger: heroRef.current,
@@ -32,7 +31,6 @@ function Hero() {
     });
   }, []);
 
-  // Counting Effect for Numbers
   useEffect(() => {
     if (startCount) {
       const yearsInterval = setInterval(() => {
@@ -65,18 +63,15 @@ function Hero() {
 
   return (
     <section ref={heroRef} className="relative w-screen min-h-screen flex items-center justify-center bg-black overflow-hidden">
-      {/* Background Image */}
       <div ref={bgRef} className="absolute inset-0 w-full h-full bg-center bg-cover" style={{ backgroundImage: `url(${hero})` }}>
-        <span className="absolute inset-0 bg-black opacity-45"></span>
+        <span className="absolute inset-0 bg-black opacity-60"></span>
       </div>
 
-      {/* Content */}
       <div className="relative w-full max-w-6xl text-center px-6">
         <div ref={textRef} className="text-white">
           <h1 className="font-bold text-3xl sm:text-4xl md:text-5xl pt-20">ARCITE CONVOCATION CEREMONY 2025</h1>
           <p className="mt-4 text-lg sm:text-xl md:text-2xl text-gray-200 pt-5">HONOURING BATCHES OF THE YEAR 2024-2025</p>
 
-          {/* Features Section */}
           <div className="flex flex-col sm:flex-row justify-center items-center sm:space-x-6 lg:space-x-8 pt-8 pb-6 space-y-6 sm:space-y-0">
             {[{ icon: faAward, count: yearsCount, label: "Years of Excellence" },
               { icon: faUserGraduate, count: studentsCount, label: "Students Trained", suffix: "k+" },
@@ -93,6 +88,22 @@ function Hero() {
             ))}
           </div>
 
+          {/* Location and Date Section */}
+          <div className="mt-8 text-white text-lg md:text-xl font-medium space-y-3">
+            <div className="flex items-center justify-center space-x-3">
+              <FontAwesomeIcon icon={faMapMarkerAlt} />
+              <a href="https://maps.app.goo.gl/VPp9NgjZCtstoxZ28" target="_blank" rel="noopener noreferrer" className="underline"> Location</a>
+            </div>
+            <div className="flex items-center justify-center space-x-3">
+              <FontAwesomeIcon icon={faCalendarAlt} />
+              <span>Date: April 6, 2025 (Sunday)</span>
+            </div>
+            <div className="flex items-center justify-center space-x-3">
+              <FontAwesomeIcon icon={faClock} />
+              <span>Time: 3:00 PM</span>
+            </div>
+          </div>
+
           <a href="https://forms.gle/jUqeQh2dYrk5aq5u9">
             <button className="mt-6 px-6 py-3 bg-teal-600 text-white font-bold text-lg rounded-lg shadow-md hover:bg-white hover:text-black transition">
               Register Now
@@ -105,4 +116,3 @@ function Hero() {
 }
 
 export default Hero;
-
