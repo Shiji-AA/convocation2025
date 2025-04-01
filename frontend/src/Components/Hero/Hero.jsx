@@ -1,5 +1,6 @@
 import { useRef, useEffect, useState } from "react";
 import hero from "../../assets/hero1.jpg";
+import cnvLogo from "../../assets/cnvWhite.png"
 import { gsap } from "gsap";
 import { useGSAP } from "@gsap/react";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
@@ -64,12 +65,15 @@ function Hero() {
   return (
     <section ref={heroRef} className="relative w-screen min-h-screen flex items-center justify-center bg-black overflow-hidden">
       <div ref={bgRef} className="absolute inset-0 w-full h-full bg-center bg-cover" style={{ backgroundImage: `url(${hero})` }}>
-        <span className="absolute inset-0 bg-black opacity-60"></span>
+        <span className="absolute inset-0 bg-black opacity-65"></span>
       </div>
 
       <div className="relative w-full max-w-6xl text-center px-6">
         <div ref={textRef} className="text-white">
-          <h1 className="font-bold text-3xl sm:text-4xl md:text-5xl pt-20">ARCITE CONVOCATION CEREMONY 2025</h1>
+        <div className="flex justify-center">
+  <img src={cnvLogo} alt="CNV Logo" className="w-96 h-auto pt-20" />
+</div>
+
           <p className="mt-4 text-lg sm:text-xl md:text-2xl text-gray-200 pt-5">HONOURING BATCHES OF THE YEAR 2024-2025</p>
 
           <div className="flex flex-col sm:flex-row justify-center items-center sm:space-x-6 lg:space-x-8 pt-8 pb-6 space-y-6 sm:space-y-0">
@@ -105,7 +109,7 @@ function Hero() {
           </div>
 
           <a href="https://forms.gle/jUqeQh2dYrk5aq5u9">
-          <button className="mt-6 mb-6 px-6 py-3 bg-teal-600 text-white font-bold text-lg rounded-lg shadow-md hover:bg-white hover:text-black transition">
+          <button className="mt-6 mb-10 px-6 py-2 bg-teal-600 text-white font-normal text-lg rounded-lg shadow-md hover:bg-white hover:text-black transition">
   Register Now
 </button>
           </a>

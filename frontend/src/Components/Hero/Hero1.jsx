@@ -41,7 +41,7 @@ function Hero1() {
       {/* Title Section */}
       <div className="text-center mb-12">
         <h2 className="text-3xl md:text-4xl font-semibold text-black drop-shadow-lg">
-          Arcite Convocation Ceremonies
+          ARCITE Convocation Ceremonies
         </h2>
       </div>
 

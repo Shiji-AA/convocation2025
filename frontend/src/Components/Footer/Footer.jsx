@@ -6,7 +6,7 @@ function Footer() {
       <div className="text-sm font-light"> {/* Reduced text size here */}
         © All Rights Reserved 2025 <br />
         <span className="text-lg font-medium">
-        Arcite Technical Education Solutions Pvt Ltd
+        ARCITE Technical Education Solutions Pvt Ltd
         </span>
       </div>
       {/* Thick Teal Underline */}
