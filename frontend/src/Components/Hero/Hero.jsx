@@ -64,19 +64,14 @@ function Hero() {
 
   return (
     <section ref={heroRef} className="relative w-screen min-h-screen flex items-center justify-center bg-black overflow-hidden">
-     <div
+ <div
   ref={bgRef}
   className="absolute inset-0 w-full h-full bg-center bg-cover"
   style={{ backgroundImage: `url(${hero})` }}
 >
-  <span
-    className="absolute inset-0"
-    style={{
-      // background: "linear-gradient(to bottom, rgba(0, 180, 180, 0.4), rgba(0, 0, 0, 0.8))"
-       background: "linear-gradient(to bottom, rgba(0, 255, 255, 0.3), rgba(0, 0, 0, 0.8))"
-    }}
-  ></span>
+  <span className="absolute inset-0 bg-gradient-to-b from-black to-black opacity-80"></span>
 </div>
+
 
 
       <div className="relative w-full max-w-6xl text-center px-6">
