@@ -8,7 +8,9 @@ function Hero2() {
         <div className="flex flex-col md:flex-row items-center justify-between gap-12 w-full max-w-6xl bg-white p-10 rounded-2xl shadow-2xl transform hover:scale-105 transition duration-500 border border-gray-100">
           {/* Text Section */}
           <div className="w-full md:w-1/2 text-left">
-            <h3 className="font-[Poppins] text-5xl font-bold text-gray-800 mb-6 leading-tight ">📸 Get Your Own Photos</h3>
+            <h2 className="text-4xl md:text-5xl font-[Poppins] text-teal-800 drop-shadow-lg pb-8">
+            📸 Get Your Own <br/>Photos
+          </h2>
             <p className="text-lg text-gray-800 font-light mb-6 leading-relaxed font-sans">
               Instantly access your event photos with our advanced face recognition technology. 🤖✨
             </p>
@@ -17,7 +19,7 @@ function Hero2() {
 
           {/* QR Code Image */}
           <div className="w-full md:w-1/2 flex justify-center">
-            <div className="p-2 bg-gradient-to-r from-teal-500 to-teal-300 rounded-xl shadow-lg border-2 border-teal-700 transform hover:rotate-3 transition duration-300">
+            <div className="p-1 bg-gradient-to-r from-teal-500 to-teal-300 rounded-xl shadow-lg border-1 border-teal-900 transform hover:rotate-3 transition duration-300">
               <img
                 src={qrcode}
                 alt="QR Code"
