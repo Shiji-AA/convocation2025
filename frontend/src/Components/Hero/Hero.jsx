@@ -64,9 +64,19 @@ function Hero() {
 
   return (
     <section ref={heroRef} className="relative w-screen min-h-screen flex items-center justify-center bg-black overflow-hidden">
-      <div ref={bgRef} className="absolute inset-0 w-full h-full bg-center bg-cover" style={{ backgroundImage: `url(${hero})` }}>
-        <span className="absolute inset-0 bg-black opacity-65"></span>
-      </div>
+     <div
+  ref={bgRef}
+  className="absolute inset-0 w-full h-full bg-center bg-cover"
+  style={{ backgroundImage: `url(${hero})` }}
+>
+  <span
+    className="absolute inset-0"
+    style={{
+      background: "linear-gradient(to bottom, rgba(0, 180, 180, 0.4), rgba(0, 0, 0, 0.8))"
+    }}
+  ></span>
+</div>
+
 
       <div className="relative w-full max-w-6xl text-center px-6">
         <div ref={textRef} className="text-white">
@@ -74,7 +84,7 @@ function Hero() {
   <img src={cnvLogo} alt="CNV Logo" className="w-100 h-auto pt-20" />
 </div>
 
-          <p className="mt-4 text-lg sm:text-xl md:text-2xl text-gray-200 pt-5">HONOURING BATCHES OF THE YEAR 2024-2025</p>
+          <p className="mt-4 text-lg sm:text-xl md:text-2xl text-white pt-5">HONOURING BATCHES OF THE YEAR 2024-2025</p>
 
           <div className="flex flex-col sm:flex-row justify-center items-center sm:space-x-6 lg:space-x-8 pt-8 pb-6 space-y-6 sm:space-y-0">
             {[{ icon: faAward, count: yearsCount, label: "Years of Excellence" },
