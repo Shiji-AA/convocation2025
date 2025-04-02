@@ -5,7 +5,7 @@ function Footer() {
     <footer className="bg-black text-white text-center py-4 relative">
       <div className="text-sm font-light"> {/* Reduced text size here */}
         © All Rights Reserved 2025 <br />
-        <span className="text-lg font-medium">
+        <span className="text-lg font-medium ">
         ARCITE Technical Education Solutions Pvt Ltd
         </span>
       </div>

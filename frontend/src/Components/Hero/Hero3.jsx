@@ -18,6 +18,7 @@ function Hero3() {
 <h2 className="text-3xl md:text-4xl font-[Poppins] text-teal-800 drop-shadow-lg pb-8">
             About ARCITE 
           </h2>
+          
         
           {/* <h2 className="text-3xl md:text-4xl text-teal-800 drop-shadow-lg pb-8" style={{ fontFamily: 'Poppins, sans-serif' }}>
   About ARCITE

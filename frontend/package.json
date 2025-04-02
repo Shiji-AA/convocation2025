@@ -16,6 +16,7 @@
     "@fortawesome/react-fontawesome": "^0.2.2",
     "@gsap/react": "^2.1.2",
     "@tailwindcss/vite": "^4.0.17",
+    "axios": "^1.8.4",
     "gsap": "^3.12.7",
     "how": "^2.0.2",
     "install": "^0.13.0",
