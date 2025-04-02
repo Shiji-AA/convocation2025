@@ -72,7 +72,8 @@ function Hero() {
   <span
     className="absolute inset-0"
     style={{
-      background: "linear-gradient(to bottom, rgba(0, 180, 180, 0.4), rgba(0, 0, 0, 0.8))"
+      // background: "linear-gradient(to bottom, rgba(0, 180, 180, 0.4), rgba(0, 0, 0, 0.8))"
+       background: "linear-gradient(to bottom, rgba(0, 255, 255, 0.3), rgba(0, 0, 0, 0.8))"
     }}
   ></span>
 </div>
