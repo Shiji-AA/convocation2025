@@ -6,6 +6,8 @@ import { useGSAP } from "@gsap/react";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAward, faUserGraduate, faBookOpen, faMapMarkerAlt, faClock, faCalendarAlt } from "@fortawesome/free-solid-svg-icons";
+import johnMathew from '../../assets/johnMathew.jpeg'
+import sinte from '../../assets/sinte.jpeg'
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -114,8 +116,32 @@ function Hero() {
             </div>
           </div>
 
+
+          {/* Dignitaries Section */}
+          <div className="mt-12 text-white text-lg md:text-xl font-medium text-center">
+  <p className="mt-4 text-lg sm:text-xl md:text-2xl text-white font-bold mb-8">DIGNITARIES</p>
+  
+  <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 justify-center items-center">
+    {/* Dignitary 1 */}
+    <div className="bg-white/4 p-6 rounded-2xl shadow-lg text-center transform transition duration-300 hover:scale-105">
+      <img src={johnMathew} alt="John Mathew Sebastian" className="w-28 h-28 rounded-full mx-auto mb-4 border-4 border-white shadow-lg"/>
+      <p className="text-xl font-semibold text-white">Mr. John Mathew Sebastian</p>
+      <p className="text-sm text-gray-300">Head - Talent Acquisition & Employee Experience, V-Guard</p>
+    </div>
+    
+    {/* Dignitary 2 */}
+    <div className="bg-white/4 p-6 rounded-2xl shadow-lg text-center transform transition duration-300 hover:scale-105">
+      <img src={sinte} alt="Sinte P A" className="w-28 h-28 rounded-full mx-auto mb-4 border-4 border-white shadow-lg"/>
+      <p className="text-xl font-semibold text-white">Mr. Sinte P A</p>
+      <p className="text-sm text-gray-300">Sub Inspector of Police, Kadavantra Police Station</p>
+    </div>
+  </div>
+</div>
+
+
+
           <a href="https://forms.gle/jUqeQh2dYrk5aq5u9">
-          <button className="mt-6 mb-10 px-6 py-2 bg-teal-600 text-white font-normal text-lg rounded-lg shadow-md hover:bg-white hover:text-black transition">
+          <button className="mt-10 mb-10 px-6 py-2 bg-teal-600 text-white font-normal text-lg rounded-lg shadow-md hover:bg-white hover:text-black transition">
   Register Now
 </button>
           </a>
