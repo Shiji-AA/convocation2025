@@ -1,5 +1,6 @@
 import { Parallax } from "react-parallax";
-import edu4 from "../../assets/hero12.jpg";
+//import edu4 from "../../assets/hero12.jpg";
+import edu4 from "../../assets/hero11.jpg";
 
 function Hero3() {
   return (

@@ -126,7 +126,7 @@ function Hero() {
     <div className="bg-white/4 p-6 rounded-2xl shadow-lg text-center transform transition duration-300 hover:scale-105">
       <img src={johnMathew} alt="John Mathew Sebastian" className="w-28 h-28 rounded-full mx-auto mb-4 border-4 border-white shadow-lg"/>
       <p className="text-xl font-semibold text-white">Mr. John Mathew Sebastian</p>
-      <p className="text-sm text-gray-300">Head - Talent Acquisition & Employee Experience, V-Guard</p>
+      <p className="text-sm text-gray-300">Head - Talent Acquisition & Employee Experience, V-Guard Industries Ltd</p>
     </div>
     
     {/* Dignitary 2 */}
