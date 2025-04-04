@@ -83,6 +83,21 @@ function Hero() {
 </div>
 
           <p className="mt-4 text-lg sm:text-xl md:text-2xl text-white pt-5">HONOURING BATCHES OF THE YEAR 2024-2025</p>
+       {/* Location and Date Section */}
+       <div className="mt-2 text-white text-xs md:text-base font-small flex items-center justify-center space-x-4">
+  <div className="flex items-center space-x-1">
+    <FontAwesomeIcon icon={faMapMarkerAlt} />
+    <a href="https://maps.app.goo.gl/VPp9NgjZCtstoxZ28" target="_blank" rel="noopener noreferrer" className="underline">Location</a>
+  </div>
+  <div className="flex items-center space-x-1">
+    <FontAwesomeIcon icon={faCalendarAlt} />
+    <span>Date: April 6, 2025 (Sunday)</span>
+  </div>
+  <div className="flex items-center space-x-1">
+    <FontAwesomeIcon icon={faClock} />
+    <span>Time: 3:00 PM</span>
+  </div>
+</div>
 
           <div className="flex flex-col sm:flex-row justify-center items-center sm:space-x-6 lg:space-x-8 pt-8 pb-6 space-y-6 sm:space-y-0">
             {[{ icon: faAward, count: yearsCount, label: "Years of Excellence" },
@@ -100,43 +115,42 @@ function Hero() {
             ))}
           </div>
 
-          {/* Location and Date Section */}
-          <div className="mt-8 text-white text-lg md:text-xl font-medium space-y-3">
-            <div className="flex items-center justify-center space-x-3">
-              <FontAwesomeIcon icon={faMapMarkerAlt} />
-              <a href="https://maps.app.goo.gl/VPp9NgjZCtstoxZ28" target="_blank" rel="noopener noreferrer" className="underline"> Location</a>
-            </div>
-            <div className="flex items-center justify-center space-x-3">
-              <FontAwesomeIcon icon={faCalendarAlt} />
-              <span>Date: April 6, 2025 (Sunday)</span>
-            </div>
-            <div className="flex items-center justify-center space-x-3">
-              <FontAwesomeIcon icon={faClock} />
-              <span>Time: 3:00 PM</span>
-            </div>
-          </div>
+   
 
 
-          {/* Dignitaries Section */}
-          <div className="mt-12 text-white text-lg md:text-xl font-medium text-center">
-  <p className="mt-4 text-lg sm:text-xl md:text-2xl text-white font-bold mb-8">DIGNITARIES</p>
-  
-  <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 justify-center items-center">
+ {/* Dignitaries Section */}
+<div className="mt-12 text-white text-lg md:text-xl font-medium text-center">
+  <p className="mt-2 text-lg sm:text-xl md:text-2xl font-semi-bold text-white mb-10 tracking-wide">
+    OUR DIGNITARIES
+  </p>
+
+  <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 justify-center items-center">
+    
     {/* Dignitary 1 */}
-    <div className="bg-white/4 p-6 rounded-2xl shadow-lg text-center transform transition duration-300 hover:scale-105">
-      <img src={johnMathew} alt="John Mathew Sebastian" className="w-28 h-28 rounded-full mx-auto mb-4 border-4 border-white shadow-lg"/>
-      <p className="text-xl font-semibold text-white">Mr. John Mathew Sebastian</p>
-      <p className="text-sm text-gray-300">Head - Talent Acquisition & Employee Experience, V-Guard Industries Ltd</p>
+    <div className="bg-white/10 p-6 rounded-2xl shadow-xl text-center transition-transform duration-300 hover:scale-105">
+      <div className="w-36 h-36 rounded-full mx-auto mb-4 border-2 border-white shadow-lg p-1 bg-gray-900/50">
+        <img src={johnMathew} alt="John Mathew Sebastian" className="w-full h-full rounded-full"/>
+      </div>
+      <p className="text-2xl font-semibold text-white">Mr. John Mathew Sebastian</p>
+      <p className="text-sm text-gray-300 leading-relaxed">
+        DGM & Head of Talent Acquisition & <br/> Employee Experience, V-Guard Industries Ltd
+      </p>
     </div>
     
     {/* Dignitary 2 */}
-    <div className="bg-white/4 p-6 rounded-2xl shadow-lg text-center transform transition duration-300 hover:scale-105">
-      <img src={sinte} alt="Sinte P A" className="w-28 h-28 rounded-full mx-auto mb-4 border-4 border-white shadow-lg"/>
-      <p className="text-xl font-semibold text-white">Mr. Sinte P A</p>
-      <p className="text-sm text-gray-300">Sub Inspector of Police, Kadavantra Police Station</p>
+    <div className="bg-white/10 p-6 rounded-2xl shadow-xl text-center transition-transform duration-300 hover:scale-105">
+      <div className="w-36 h-36 rounded-full mx-auto mb-4 border-2 border-white shadow-lg p-1 bg-gray-900/50">
+        <img src={sinte} alt="Sinte P A" className="w-full h-full rounded-full"/>
+      </div>
+      <p className="text-2xl font-semibold text-white">Mr. Sinte P A</p>
+      <p className="text-sm text-gray-300 leading-relaxed">
+        Sub Inspector of Police, <br/> Kadavantra Police Station, Kochi
+      </p>
     </div>
+
   </div>
 </div>
+
 
 
 
